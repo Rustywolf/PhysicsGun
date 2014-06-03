@@ -1,0 +1,16 @@
+main: net.teslaraptor.physicsgun.PhysicsGun
+name: PhysicsGuns
+version: 69
+commands:
+    physicsgun:
+        description: Give player or yourself a Physics Gun
+        usage: /physicsgun [Player]
+        permission: physicsgun.admin
+        permission-usage: You don't have physicsgun.admin
+permissions:
+    physicsgun.admin:
+        description: Access to /physicsgun
+        default: op
+    physicsgun.user:
+        description: Allows use of PhysicsGun
+        default: true
